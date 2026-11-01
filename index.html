@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Key Admit · Admisiones Sciences Po y Columbia</title>
+<meta name="description" content="We help you get into your dream university">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#FBFBFB; --ink:#252C47; --muted:#6B7280;
+  --red:#D84940; --red-d:#B93B34; --surface:#FFFFFF; --soft:#EAF0FA;
+  --shadow:0 1px 3px rgba(37,44,71,.06);
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+  color-scheme:light;
+}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:border-box}
+html,body{margin:0}
+body{
+  min-height:100vh; overflow-x:hidden;
+  background:var(--bg);
+  color:var(--ink); font-family:Montserrat,system-ui,-apple-system,"Segoe UI",sans-serif;
+  line-height:1.5; -webkit-font-smoothing:antialiased;
+}
+main{
+  width:100%; max-width:420px; margin:0 auto;
+  padding:48px 20px 32px; display:flex; flex-direction:column; align-items:center; text-align:center;
+}
+.avatar{
+  width:168px; height:190px; padding-top:22px;
+  border:2px solid var(--ink); border-radius:84px 84px 16px 16px;
+  background:#FBFBFB; display:flex; align-items:center; justify-content:center;
+}
+.avatar img{width:116px; height:auto; display:block}
+h1{
+  font-family:"Playfair Display",Georgia,"Times New Roman",serif;
+  font-weight:600; font-size:2rem; line-height:1.15; margin:20px 0 6px; letter-spacing:.2px;
+}
+.bio{margin:0; color:var(--muted); font-size:.95rem; max-width:30ch}
+.social{display:flex; gap:8px; margin:20px 0 32px; padding:0; list-style:none}
+.social a{
+  display:flex; width:44px; height:44px; align-items:center; justify-content:center;
+  color:var(--ink); border-radius:50%; transition:color .25s ease;
+}
+.social a:hover,.social a:focus-visible{color:var(--red)}
+.social svg{width:22px;height:22px}
+.links{width:100%; display:flex; flex-direction:column; gap:14px; margin:0; padding:0; list-style:none}
+.links li{opacity:0; animation:in .5s ease forwards; animation-delay:calc(var(--i) * 90ms + 150ms)}
+.sep{height:6px}
+@keyframes in{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:none}}
+.btn{
+  position:relative; display:flex; align-items:center; gap:14px; width:100%; min-height:58px;
+  padding:16px 20px; border-radius:14px; text-decoration:none; text-align:left;
+  font-size:.95rem; font-weight:500; color:var(--ink);
+  background:var(--surface); border:1px solid var(--ink); box-shadow:var(--shadow);
+  transition:background-color .25s ease,color .25s ease,border-color .25s ease;
+}
+.btn svg{width:22px;height:22px;flex:none;color:var(--red);transition:color .25s ease}
+.btn span.t{flex:1}
+.btn:hover,.btn:focus-visible{background:var(--ink);color:#fff;border-color:var(--ink)}
+.btn:hover svg,.btn:focus-visible svg{color:#fff}
+.btn.feat{background:var(--soft)}
+.btn.feat:hover,.btn.feat:focus-visible{background:var(--ink)}
+.btn.cta{background:var(--red);border-color:var(--red);color:#fff}
+.btn.cta svg{color:#fff}
+.btn.cta:hover,.btn.cta:focus-visible{background:var(--red-d);border-color:var(--red-d)}
+.badge{
+  font-size:.7rem; font-weight:500; padding:3px 10px; border-radius:999px;
+  background:var(--surface); color:var(--red); border:1px solid currentColor; transition:all .25s ease;
+}
+.cta .badge{background:transparent;color:#fff}
+.feat:not(.cta) .badge{background:var(--red);color:#fff;border-color:var(--red)}
+a:focus-visible{outline:2px solid var(--red); outline-offset:3px}
+footer{margin-top:40px; font-size:.78rem; color:var(--muted)}
+footer a{color:inherit; text-underline-offset:3px}
+footer a:hover{color:var(--red)}
+@media (prefers-reduced-motion:reduce){
+  .links li{opacity:1; animation:none}
+  *{transition-duration:.01ms !important}
+}
+</style>
+</head>
+<body>
+<main>
+  <div class="avatar"><img src="data:image/png;base64,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" alt="Logotipo de Key Admit" width="153" height="91"></div>
+  <h1>Key Admit</h1>
+  <p class="bio">We help you get into your dream university</p>
+
+  <ul class="social" aria-label="Redes sociales">
+    <li><a href="https://www.instagram.com/keyadmitadmissions/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6" fill="currentColor"/></svg></a></li>
+    <li><a href="#" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3v11.5a3.5 3.5 0 1 1-3.5-3.5"/><path d="M14 3c.4 2.6 2.2 4.4 5 4.6"/></svg></a></li>
+    <li><a href="https://www.linkedin.com/company/key-admit-international-admissions" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 11v5M8 8v.01M12 16v-5M12 13a2.5 2.5 0 0 1 5 0v3"/></svg></a></li>
+  </ul>
+
+  <ul class="links">
+    <li style="--i:0"><a class="btn cta feat" href="https://calendly.com/isabella-keyadmitadmissions/30min" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4.5" width="18" height="16" rx="3"/><path d="M8 2.5v4M16 2.5v4M3 10h18"/></svg>
+      <span class="t">Schedule a free call</span><span class="badge">Gratis</span></a></li>
+    <li style="--i:1"><a class="btn feat" href="https://www.keyadmitprep.com/?utm_source=ig&utm_medium=social&utm_content=link_in_bio" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.500 5.700 12 3z"/></svg>
+      <span class="t">Visit our website</span><span class="badge">Web</span></a></li>
+    <li class="sep" aria-hidden="true"></li>
+    <li style="--i:2"><a class="btn" href="https://www.linkedin.com/company/key-admit-international-admissions" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 11v5M8 8v.01M12 16v-5M12 13a2.5 2.5 0 0 1 5 0v3"/></svg>
+      <span class="t">LinkedIn</span></a></li>
+    <li style="--i:3"><a class="btn" href="https://www.keyadmitprep.com/about" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.200 3.600-7 8-7s8 2.800 8 7"/></svg>
+      <span class="t">Get to know us</span></a></li>
+    <li style="--i:4"><a class="btn" href="https://www.keyadmitprep.com/contact" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="3"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 13h18"/></svg>
+      <span class="t">Schedule your first session, 1:1</span></a></li>
+  </ul>
+
+  <footer>© 2026 · <a href="#">Política de privacidad</a></footer>
+</main>
+</body>
+</html>
